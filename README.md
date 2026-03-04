@@ -222,7 +222,7 @@ What's missing is the decision to build it.
 
 This is not a research problem. The techniques — corpus curation, constitutional constraints, reward modeling — are all published and demonstrated. Phi-1 proved that data quality beats data quantity. Constitutional AI proved that hard rules can be enforced during training. RLHF proved that reward signals shape model behavior. The only novel element is combining them with an explicit lean-code objective.
 
-This is not a scale problem. A sparse MoE model with 3B active parameters, fine-tuned on a curated corpus, can outperform a 70B dense model trained on everything. The entire project fits within a university lab's compute budget.
+This is not a scale problem. Models like Qwen3-Coder-Next already give us 80B-class code intelligence with only 3B active parameters, Apache 2.0 licensed, scoring over 70% on SWE-Bench Verified. Fine-tune that on a curated corpus with a lean reward signal, and the entire project fits within a university lab's compute budget.
 
 This is an alignment problem — in the original, non-hype sense of the word. We want to align a code-generating model with the values of engineers who write lean code. The current models are aligned with the statistical average of all code ever written, which is not the same thing.
 
